@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content='IE=edge'>
+    <title>TOdoLIst</title>
+    <meta name='description' content=''>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<style>
+
+
+
+    body{
+        background-color: #FFE893;
+        /*font-family:"Rubik Vinyl", serif;
+        font-weight: 400;
+        font-style: normal;*/
+        padding:50px;
+    }
+    .container{
+        max-width: 600px;
+        margin: auto;     
+        padding: 20px;  
+        background-color: #FBB4A5;
+        border-radius: 10px;
+        box-shadow:10px 10px 50px #ba9630;
+        font-family: "Raleway", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+
+
+    }
+    
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+     'wght' 400,
+  ' GRAD' 0,
+  'opsz' 24
+}
+
+
+    .header-bar{
+        
+        padding: 20px;
+        
+        display: flex;
+        gap: 50px;
+    }
+    p {
+        background-color: #;
+        padding: 10px;
+        align:left;
+    }
+    table{
+        border: 5px;
+        padding: 20px;'
+
+    }
+    a{
+        color:#000000;
+        text-decoration: none;
+        
+    }
+    .head-2{
+        display : flex;
+        space-between:60px;
+    }
+    .create{
+        padding-left: 200px;
+        padding-top:25px;
+
+    }
+    a{
+        padding: 10px 20px;
+        background-color: #FB9EC6;
+        border-radius: 5px;
+    }
+    a:hover{
+        border-width: 1px;
+        padding: 10px 20px;
+        background-color: #ff8abc;
+        border-color: #FB9EC6;
+        box-shadow: 10px 10px 45px #FCFFC1;
+        blur:3px;
+    }
+    td{
+        padding-bottom: 20px;
+    }
+    table{
+        width:100%;
+    }
+    .icon{
+        padding: 4px;
+        padding-top: 12px;
+    }
+    .icon:hover{
+        padding: 4px;
+        padding-top: 12px;
+    }
+    .timestamp{
+        padding-left: 30px;
+    }
+    .checkboxx{
+        padding: 1px 9px;
+        border-color:  black;
+        border-width: 2px;
+    }
+    .checkboxx:hover{
+        padding: 1px 9px;
+        border-color:  black;
+        border-width: 2px;
+    }
+    #completed{
+        display: none;
+    }
+
+</style>
+<body>
+    
+    <div class='container'>
+        {% block content %}
+
+        {% endblock content%}
+    </div>
+</body>
+</html>
